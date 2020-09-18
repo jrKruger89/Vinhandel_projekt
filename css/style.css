@@ -6,6 +6,10 @@
 
 }
 
+html {
+  font-size: 100%;
+}
+
 body {
   font-family: 'Times New Roman', Times, serif;
   background-image: url(../img/baggrund.jpg);
@@ -396,4 +400,49 @@ div.gallery:hover {
   height: 10px;
   background-color: #3c3c3c;
 
+}
+
+/*------ Rødvin Styling ------*/
+
+.page_title {
+  text-align: center;
+  font-size: 2.25rem;
+  color: #f7c26f;
+  padding: 25px 0px;
+  text-shadow: 2px 2px black;
+}
+
+.main_content {
+  display: flex;
+}
+
+.filter_sidebar {
+  width: 40%;
+}
+
+.wine_catalogue {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.catalogue_element {
+  padding: 10px 0px;
+}
+
+.catalogue_element img {
+  width: 200px;
+  height: 200px;
+  opacity: 50%;
+}
+
+.catalogue_element img:hover {
+  opacity: 100%;
+}
+
+figcaption {
+  text-align: center;
+  text-shadow: 2px 2px black;
+  padding: 10px 0px;
 }

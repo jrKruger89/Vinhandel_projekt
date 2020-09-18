@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  color: #f7c26f;
+
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url(../img/baggrund.jpg);
+  width: auto;
+  height: auto;
+  color: #f7c26f;
+}
+
+/* ------------HEADING---------- */
+
+.headingmain {
+  text-align: center;
+  color: #f7c26f;
+  background-image: url(../img/baggrund.jpg);
+  width: auto;
+  font-size: 60px;
+  padding: 35px;
+  text-shadow: 2px 2px black;
+}
+
+.forside-billede {
+  width: 750px;
+  height: auto;
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.8;
+}
+
+/* ---------------NAVBAR----------*/
+
+nav {
+  position: sticky;
+  text-align: center;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  font-size: 25px;
+  z-index: 10;
+}
+
+.navbar li {
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.navbar li a {
+  display: inline-block;
+  color: #f7c26f;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #333;
+}
+
+/* ---------------TEXT-BOX 1----------*/
+
+
+.text-box1{
+  border-radius: 10%;
+  text-align: center;
+  padding: 20px;
+  background-color: #3c3c3c;
+  width: 300px;
+  height: 250px;
+  position: relative;
+  top: -150px;
+  right: -550px;
+}
+
+.text-box1 ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+.text-box1 li a{
+  text-decoration: none;
+  margin: 10px;
+}
+
+.text-box1 ul li {
+  padding-bottom: 10px;
+  font-size: 20x;
+}
+
+.text-box2{
+  text-align: left;
+  padding: 20px;
+  background-color: #3c3c3c;
+  width: 650px;
+  height: 250px;
+
+}
+
+.billede-textbox2 {
+  position: absolute;
+  top: 950px;
+  right: 0;
+  width: 750px;
+  height: 500px;
+  padding-bottom: 200px;
+  padding-left: 800px;
+}
+
+
+
+/* ---------------MÅNEDENS UDVALGTE----------*/
+
+.udvalg h2 {
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.flex-container-ud {
+  display: flex;
+  justify-content: center;
+  background-color: #3c3c3c;
+}
+
+.flex-container-ud div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 180px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.gallery:hover {
+  opacity: 0.5;
+}
+
+/* ---------------INFOMATION----------*/
+
+.infomationer h3 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  background-color: #3c3c3c;
+  width: 700px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.infomationer-n p {
+  text-align: center;
+  padding: 40px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+
+.info-butik{
+  width: 550px;
+  height: 400px;
+  padding: 40px;
+}
+
+.container-infob{
+  display: flex;
+  justify-content: center;
+}
+
+/* ---------------REVIEWS----------*/
+
+.container-reviews {
+  display: flex;
+  justify-content: center;
+  background-color: #3c3c3c;
+}
+
+
+.container-reviews div {
+  margin: 20px;
+  padding: 40px;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+
+
+.review-trustp {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  padding: 40px;
+  margin-left: 470px;
+}
+
+.reviews p {
+  font-size: 30px;
+}
+
+/* ---------------NEWSLETTER----------*/
+
+
+#news-baggrund {
+  background-image: url(../img/nyhedsbrev\ kopi.jpg);
+  position: relative;
+  top: 20px;
+}
+
+.container-news {
+  display: flex;
+  justify-content: center;
+  border: solid 2px #111111;
+  padding: 70px 40px;
+  text-align: center;
+  color: #f7c26f;
+  width: 80%;
+  position: relative;
+  left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+.container-news p {
+  max-width: 600px;
+  margin: 40px auto;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.email-box {
+  height: 40px;
+  justify-content: center;
+  display: flex;
+}
+
+.email-box i {
+  background: #2f3542;
+  width: 40px;
+  line-height: 40px;
+}
+
+.tbox-news,
+.btn-news {
+  border: none;
+  outline: none;
+}
+
+.tbox-news {
+  width: 0px;
+  transition: 0.6s;
+}
+
+.email-box:hover>.tbox-news,
+.tbox:focus {
+  width: 260px;
+  padding: 0 10px;
+}
+
+.btn-news {
+  background: #2f3542;
+  color: white;
+  padding: 0 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* -------------------------*/
+.maps {
+  padding: 30px;
+  text-align: center;
+}
+
+.maps-head {
+  padding: 30px;
+  text-decoration: underline;
+}
+
+.maps-embedded {
+  height: 200px;
+
+
+}
+
+/* ---------------FOOTER----------*/
+
+
+.container-footer {
+  display: flex;
+  justify-content: center;
+  background-color: #3c3c3c;
+}
+
+
+.container-footer div {
+  margin: 20px;
+  padding: 40px;
+  font-size: 20px;
+  float: left;
+}
+
+.footer-main h3{
+  padding-bottom: 5px;
+  text-decoration: underline;
+}
+
+.footer-main ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+}
+
+.footer-main ul a{
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.footer-main li {
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+
+#holder{
+  text-align: left;
+  padding: 20px;
+  background-color: #3c3c3c;
+  width: 650px;
+  height: 250px;
+}
+
+#holder p{
+  padding: 10px 15px;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: #3c3c3c;
+  font-size: 20px;
+  
+}
+
+#top{
+  width: 248px;
+  height: 10px;
+  background-color: #3c3c3c;
+}
+
+#top h2{
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 25px;
+  background-color: #3c3c3c;
+  text-decoration: underline;
+}
+
+#bottom{
+  width: 248px;
+  height: 10px;
+  background-color: #3c3c3c;
+
+}

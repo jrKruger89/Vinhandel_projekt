@@ -1,112 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <title>Rødvin</title>
 </head>
+
 <body>
-    
-        <!---------------HEADER--------->
-        <h1 class="headingmain">Aarhus Vinhandel</h1>
-        <!---------------NAVBAR--------->
-        <nav>
-          <ul class="navbar">
+
+    <!---------------HEADER--------->
+    <h1 class="headingmain">Aarhus Vinhandel</h1>
+    <!---------------NAVBAR--------->
+    <nav>
+        <ul class="navbar">
             <li><a class="active" href="../index.html"><i class="fas fa-home"></i> </a></li>
             <li><a class="active" href="#">Rødvin</a></li>
             <li><a class="active" href="#hvidvin">Hvidvin</a></li>
             <li><a class="active" href="#import">Spiritus</a></li>
             <li><a class="active" href="#omos">Om Os</a></li>
             <li><a class="active" href="#"><i class="fas fa-search"></i> </a></li>
-          </ul>
-        </nav>
+        </ul>
+    </nav>
 
-        <main>
-            <h2 class="page_title">Rødvin</h2>
-            <section class="main_content">
-                <aside class="filter_sidebar">
+    <main>
+        <h2 class="page_title">Rødvin</h2>
+        <section class="main_content">
+            <aside class="filter_sidebar">
+                <h3>Filtrér</h3>
+                <form class="filter_form">
+                    <label>Tør eller sød?</label>
+                    <input type="range" min="1" max="5" value="3">
+                    <label>Pris</label>
+                    <input type="range" min="1" max="5" value="3">
+                    <label class="country_lbl">Land</label>
+
+                    <label for="land1">
+                        <input type="checkbox" name="land1" id="land1" value="Spanien"> Spanien
+                    </label>
+                    <label for="land2">
+                        <input type="checkbox" name="land2" id="land2" value="Italien"> Italien
+                    </label>
+                    <label for="land3">
+                        <input type="checkbox" name="land3" id="land3" value="Frankrig"> Frankrig
+                    </label>
+                    <label for="land4">
+                        <input type="checkbox" name="land4" id="land4" value="Chile"> Chile
+                    </label>
+                    <label for="land5">
+                        <input type="checkbox" name="land5" id="land5" value="Argentina"> Argentina
+                    </label>
+                    <label for="land6">
+                        <input type="checkbox" name="land6" id="land6" value="Australien"> Australien
+                    </label>
+
+
+                    <label class="food_lbl">Hvad skal den passe til?</label>
+                    <label for="mad1">
+                        <input type="checkbox" name="mad1" id="mad1" value="Oksekød"> Oksekød
+                    </label>
+                    <label for="mad2">
+                        <input type="checkbox" mad2 id="mad2" value="Svinekød"> Svinekød
+                    </label>
+                    <label for="mad3">
+                        <input type="checkbox" name="mad3" id="mad3" value="Vildt"> Vildt
+                    </label>
+                    <label for="mad4">
+                        <input type="checkbox" name="mad4" id="mad4" value="Tapas"> Tapas
+                    </label>
                     
-                </aside>
-                <article class="wine_catalogue">
-                    <figure class="catalogue_element elem1">
-                        <img src="../img/vin1.png" alt="redwine_img1">
-                        <figcaption>Rødvin, Spanien</figcaption>
-                    </figure>
-                    <figure class="catalogue_element elem2">
-                        <img src="../img/vin1.png" alt="redwine_img2">
-                        <figcaption>Rødvin, Italien</figcaption>
-                    </figure>
-                    <figure class="catalogue_element elem3">
-                        <img src="../img/vin1.png" alt="redwine_img3">
-                        <figcaption>Rødvin, Frankrig</figcaption>
-                    </figure>
-                    <figure class="catalogue_element elem4">
-                        <img src="../img/vin1.png" alt="redwine_img4">
-                        <figcaption>Rødvin, Chile</figcaption>
-                    </figure>
-                    <figure class="catalogue_element elem5">
-                        <img src="../img/vin1.png" alt="redwine_img5">
-                        <figcaption>Rødvin, Argentina</figcaption>
-                    </figure>
-                    <figure class="catalogue_element elem6">
-                        <img src="../img/vin1.png" alt="redwine_img6">
-                        <figcaption>Rødvin, Spanien</figcaption>
-                    </figure>
-                    <figure class="catalogue_element elem7">
-                        <img src="../img/vin1.png" alt="redwine_img7">
-                        <figcaption>Rødvin, Italien</figcaption>
-                    </figure>
-                    <figure class="catalogue_element elem8">
-                        <img src="../img/vin1.png" alt="redwine_img8">
-                        <figcaption>Rødvin, Italien</figcaption>
-                    </figure>
-                    <figure class="catalogue_element elem9">
-                        <img src="../img/vin1.png" alt="redwine_img9">
-                        <figcaption>Rødvin, Chile</figcaption>
-                    </figure>
-                    <figure class="catalogue_element elem10">
-                        <img src="../img/vin1.png" alt="redwine_img10">
-                        <figcaption>Rødvin, Australien</figcaption>
-                    </figure>
-                </article>
-            </section>
+                </form>
+            </aside>
+            <article class="wine_catalogue">
+                <figure class="catalogue_element elem1">
+                    <img src="../img/vin1.png" alt="redwine_img1">
+                    <figcaption>Rødvin, Spanien</figcaption>
+                </figure>
+                <figure class="catalogue_element elem2">
+                    <img src="../img/vin1.png" alt="redwine_img2">
+                    <figcaption>Rødvin, Italien</figcaption>
+                </figure>
+                <figure class="catalogue_element elem3">
+                    <img src="../img/vin1.png" alt="redwine_img3">
+                    <figcaption>Rødvin, Frankrig</figcaption>
+                </figure>
+                <figure class="catalogue_element elem4">
+                    <img src="../img/vin1.png" alt="redwine_img4">
+                    <figcaption>Rødvin, Chile</figcaption>
+                </figure>
+                <figure class="catalogue_element elem5">
+                    <img src="../img/vin1.png" alt="redwine_img5">
+                    <figcaption>Rødvin, Argentina</figcaption>
+                </figure>
+                <figure class="catalogue_element elem6">
+                    <img src="../img/vin1.png" alt="redwine_img6">
+                    <figcaption>Rødvin, Spanien</figcaption>
+                </figure>
+                <figure class="catalogue_element elem7">
+                    <img src="../img/vin1.png" alt="redwine_img7">
+                    <figcaption>Rødvin, Italien</figcaption>
+                </figure>
+                <figure class="catalogue_element elem8">
+                    <img src="../img/vin1.png" alt="redwine_img8">
+                    <figcaption>Rødvin, Italien</figcaption>
+                </figure>
+                <figure class="catalogue_element elem9">
+                    <img src="../img/vin1.png" alt="redwine_img9">
+                    <figcaption>Rødvin, Chile</figcaption>
+                </figure>
+                <figure class="catalogue_element elem10">
+                    <img src="../img/vin1.png" alt="redwine_img10">
+                    <figcaption>Rødvin, Australien</figcaption>
+                </figure>
+            </article>
+        </section>
 
-        </main>
+    </main>
 
-        <footer>
-            <div class="container-footer">
-              <div class="footer-main">
+    <footer>
+        <div class="container-footer">
+            <div class="footer-main">
                 <h3>Kontakt os</h3>
                 <ul>
-                  <li><a></a></li>
-                  <li><a>Aarhus Vinhandel ApS</a></li>
-                  <li><a>M.P. Bruunsgade 39</a></li>
-                  <li><a>8000 Aarhus C</a></li>
-                  <li><a>Tlf: 86133131</a></li>
-                  <li><a>Mobil: 40370888</a></li>
-                  <li><a>Mail: info.aarhusvinhandel.dk</a></li>
+                    <li><a></a></li>
+                    <li><a>Aarhus Vinhandel ApS</a></li>
+                    <li><a>M.P. Bruunsgade 39</a></li>
+                    <li><a>8000 Aarhus C</a></li>
+                    <li><a>Tlf: 86133131</a></li>
+                    <li><a>Mobil: 40370888</a></li>
+                    <li><a>Mail: info.aarhusvinhandel.dk</a></li>
                 </ul>
-              </div>
-        
-              <div class="footer-main">
+            </div>
+
+            <div class="footer-main">
                 <iframe class="maps-embedded"
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2222.5394515278126!2d10.2014973!3d56.147777!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f8e9c321b99%3A0xa98feb136395cd6e!2sM.%20P.%20Bruuns%20Gade%2039%2C%208000%20Aarhus!5e0!3m2!1sda!2sdk!4v1600247012633!5m2!1sda!2sdk"></iframe>
-              </div>
-        
-              <div class="footer-main">
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2222.5394515278126!2d10.2014973!3d56.147777!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f8e9c321b99%3A0xa98feb136395cd6e!2sM.%20P.%20Bruuns%20Gade%2039%2C%208000%20Aarhus!5e0!3m2!1sda!2sdk!4v1600247012633!5m2!1sda!2sdk"></iframe>
+            </div>
+
+            <div class="footer-main">
                 <h3>Find os på sociale medier</h3>
                 <ul>
-                  <li><a><i class="fab fa-facebook-square fa-3x"></i></a></li>
-                  <li><a><i class="fab fa-instagram-square fa-3x"></i></a></li>
-                  <li><a><i class="fab fa-youtube-square fa-3x"></i></a></li>
+                    <li><a><i class="fab fa-facebook-square fa-3x"></i></a></li>
+                    <li><a><i class="fab fa-instagram-square fa-3x"></i></a></li>
+                    <li><a><i class="fab fa-youtube-square fa-3x"></i></a></li>
                 </ul>
-              </div>
             </div>
-        
-        
-          </footer>
+        </div>
+
+
+    </footer>
 
 </body>
+
 </html>

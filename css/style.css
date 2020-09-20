@@ -87,7 +87,7 @@ nav {
   padding: 20px;
   background-color: #3c3c3c;
   width: 300px;
-  height: 250px;
+  height: 280px;
   position: relative;
   top: -150px;
   right: -550px;
@@ -470,4 +470,12 @@ label {
 .food_lbl {
   padding-top: 10px;
   text-shadow: 2px 2px black;
+}
+
+/*------ Under construction <p> ------*/
+
+.construction_notice {
+  text-align: center;
+  font-size: 1.75rem;
+  padding: 20px 0px;
 }
